@@ -10,125 +10,120 @@
     <title>PARA USO DO SERVIÇO DE TRANSPORTE</title>
 
     <link rel="icon" type="image/x-icon" href="/imagens/channels4_profile.jpg">
-    
-    <!-- BOOTSTRAP CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+
+    <!-- BOOTSTRAP CSS 5.3-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
-<body>
-    
+<body style="background-color: rgb(197, 190, 190)">
 
-<!--Linha do Título-->
-<div class="container">
-    <form>
-        <div class="row align-items-center">
-            <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
-                <img src="../imagens/logo_idr_parana.png" width="270px" height="90px" class="img-fluid" alt="logo IDR-Paraná">
-            </div>
-            <div class="col-12 col-md-9 text-center mb-6 mb-md-0">
-                <h1 class="custom-border p-2">REQUISIÇÃO DE VEÍCULO</h1>
-            </div>
-        </div>
-    </form>
-</div>
-
-
-<!--Menu-->
-<div class="container" id="Menu">
-    <nav class="navbar navbar-expand-lg navbar navbar-dark barra-pesquisa" style="background-color: rgb(75, 67, 67);">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse center-buttons" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Solicitação<span class="sr-only">(Página atual)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="minhasviagens.html">Minhas Viagens</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="viagens.html">Viagens</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="transporte.html">Transporte</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="imprimir.html">Imprimir</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="aprovacao.html">Aprovação</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="historico.html">Historico</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-</div>
-
-    <hr>
-
-    <!--4°linha-->
+    <!--Linha do Título-->
     <div class="container">
-        <form>     
-            <div class="form-row">
-                <div class="col-9">
-                    <div class="form-control titulo-secundario">
-                        <h4>PARA USO DO SERVIÇO DE TRANSPORTE</h4>
-                    </div>
+        <form class="mb-2 mt-2">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
+                    <img src="../imagens/logo_idr_parana.png" width="270px" class="img-fluid" alt="logo IDR-Paraná">
                 </div>
-                <div class="col-3">
-                    <input type="text" class="form-control" placeholder="Ref. P.V.I. n°">
+                <div class="col-12 col-md-9 text-center rounded border border-2 border-black bg-white mb-6 mb-md-0">
+                    <h1 class="custom-border pt-2 pb-1">REQUISIÇÃO DE VEÍCULO</h1>
                 </div>
             </div>
         </form>
     </div>
 
-<!-- 5° linha -->
+
+<!--Menu-->
 <div class="container">
-    <form>     
-        <div class="form-row">
-            <div class="col-3">
-                <label for="inputFrota" class="label-cinza">Frota</label>
-                <input type="text" class="form-control altura-borda" id="inputFrota" placeholder="Frota">
-            </div>
-            <div class="col-3">
-                <label for="inputMarcaModelo" class="label-cinza">MARCA/MODELO</label>
-                <input type="text" class="form-control altura-borda" id="inputMarcaModelo" placeholder="MARCA/MODELO">
-            </div>
-            <div class="col-3">
-                <label for="inputPlaca" class="label-cinza">Placa n°</label>
-                <input type="text" class="form-control altura-borda" id="inputPlaca" placeholder="Placa n°">
-            </div>
-            <div class="col-3">
-                <label for="inputNumeroFrota" class="label-cinza">n° Frota</label>
-                <input type="text" class="form-control altura-borda" id="inputNumeroFrota" placeholder="n° Frota">
+    <nav class="navbar navbar-expand-lg bg-success rounded border border-2 border-black" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Solicitação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="minhasviagens.html">Minhas Viagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="viagens.html">Viagens</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="transporte.html">Transporte</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="imprimir.html">Imprimir</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="aprovacao.html">Aprovação</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="historico.html">Historico</a>
+                </li>
+                </ul>
             </div>
         </div>
-    </form>
+    </nav>
+</div>
+
+    <hr>
+
+        <div class="container">
+            <div class="row g-3">
+                <div class="col-sm-9">
+                    <div class=" p-3 border border-2 border-black border-bottom-0 text-center bg-white rounded">
+                        <h4>PARA USO DO SERVIÇO DE TRANSPORTE</h4>   
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <input type="text" class="form-control p-3 border border-2 border-black" placeholder="Ref. P.V.I. n°">
+                </div>
+              </div>
+        </div>
+
+<!-- 5° linha -->
+<div class="container">
+    <div class="row g-3">
+        <div class="col-sm-3">
+                <label for="inputFrota">Frota</label>
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputFrota" placeholder="Frota">
+        </div>
+        <div class="col-sm-3">
+            <label for="inputMarcaModelo">MARCA/MODELO</label>
+            <input type="text" class="form-control p-3 border border-2 border-black" id="inputMarcaModelo" placeholder="MARCA/MODELO">
+        </div>
+        <div class="col-sm-3">
+            <label for="inputPlaca">Placa n°</label>
+            <input type="text" class="form-control p-3 border border-2 border-black" id="inputPlaca" placeholder="Placa n°">
+        </div>
+        <div class="col-sm-3">
+            <label for="inputNumeroFrota">n° Frota</label>
+            <input type="text" class="form-control p-3 border border-2 border-black" id="inputNumeroFrota" placeholder="n° Frota">
+        </div>
+    </div>
 </div>
 
 <!-- 6° linha -->
 <div class="container">
     <form>     
-        <div class="form-row">
+        <div class="row g-3">
             <div class="col-4">
                 <label for="inputRetirado" class="label-cinza">Retirado em:</label>
-                <input type="text" class="form-control altura-borda" id="inputRetirado" placeholder="Retirado em:">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputRetirado" placeholder="Retirado em:">
             </div>
             <div class="col-2">
                 <label for="inputHorarioRetirado" class="label-cinza">Horário:</label>
-                <input type="text" class="form-control altura-borda" id="inputHorarioRetirado" placeholder="Horário:">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputHorarioRetirado" placeholder="Horário:">
             </div>
             <div class="col-3">
                 <label for="inputRetornoPrevisto" class="label-cinza">Retorno Previsto Para:</label>
-                <input type="text" class="form-control altura-borda" id="inputRetornoPrevisto" placeholder="Retorno Previsto Para:">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputRetornoPrevisto" placeholder="Retorno Previsto Para:">
             </div>
             <div class="col-3">
                 <label for="inputHorarioRetorno" class="label-cinza">Horário:</label>
-                <input type="text" class="form-control altura-borda" id="inputHorarioRetorno" placeholder="Horário">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputHorarioRetorno" placeholder="Horário">
             </div>
         </div>
     </form>
@@ -137,31 +132,32 @@
 <!-- 7° linha -->
 <div class="container">
     <form>     
-        <div class="form-row">
+        <div class="row g-3">
             <div class="col-4">
                 <label for="inputHodometroInicial" class="label-cinza">Hodômetro Inicial (Km)</label>
-                <input type="text" class="form-control altura-borda" id="inputHodometroInicial" placeholder="Hodômetro Inicial (Km)">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputHodometroInicial" placeholder="Hodômetro Inicial (Km)">
             </div>
             <div class="col-4">
                 <label for="inputHodometroFinal" class="label-cinza">Hodômetro Final (Km)</label>
-                <input type="text" class="form-control altura-borda" id="inputHodometroFinal" placeholder="Hodômetro Final (Km)">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputHodometroFinal" placeholder="Hodômetro Final (Km)">
             </div>
             <div class="col-4">
                 <label for="inputKmPercorridos" class="label-cinza">Km. Percorridos</label>
-                <input type="text" class="form-control altura-borda" id="inputKmPercorridos" placeholder="Km. Percorridos">
+                <input type="text" class="form-control p-3 border border-2 border-black" id="inputKmPercorridos" placeholder="Km. Percorridos">
             </div>
         </div>
     </form>
 </div>
 
-<div class="botao">
-    <a href="historico.html" class="btn btn-primary btn-lg active espacamento" role="button" aria-pressed="true">Enviar</a>
+<div class="container">
+    <div class="d-flex">
+        <a class="btn btn-primary btn-lg ms-auto mt-3" href="historico.html" role="button">Enviar</a>
+    </div>
 </div>
 
-<!-- BOOTSTRAP JAVASCRIPT -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <!--BOOTSTRAP JAVASCRIPT 5.3-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
